@@ -1,0 +1,2 @@
+This is my first independent project at The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+When I am done, I should add the skills that I demonstrated in creating this project.
