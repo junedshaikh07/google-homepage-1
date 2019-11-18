@@ -44,3 +44,8 @@ button {
     background-color: lightgray;
     padding: 10px;
 }
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
