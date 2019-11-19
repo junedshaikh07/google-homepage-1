@@ -24,6 +24,16 @@ input {
     border-radius: 20px;
 }
 
+.wrapper-flex {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;   
+}
+
+.wrapper-flex > * {
+    flex: 0 1 auto;
+}
+
 .nav-flex {
     display: flex;
     justify-content: space-between;
@@ -34,10 +44,11 @@ input {
     flex-direction: column;
     margin: 50px 0;
     align-items: center;
+    flex-grow: 2;
 }
 
 .hero > * {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
 }
 
 button {
