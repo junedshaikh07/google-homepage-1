@@ -17,11 +17,7 @@ a {
 }
 
 input {
-    width: 400px;
-    border: 1px solid black;
-    margin: 15px;
-    padding: 10px;
-    border-radius: 20px;
+    width: 350px;
 }
 
 .wrapper-flex {
@@ -49,6 +45,13 @@ input {
 
 .hero > * {
     flex: 0 1 auto;
+}
+
+.search-area {
+    border: 1px solid #dfe1e5;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 button {
