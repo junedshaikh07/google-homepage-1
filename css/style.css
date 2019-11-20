@@ -25,26 +25,26 @@ input {
     width: 350px;
 }
 
-.wrapper-flex {
+.page-wrapper {
     display: flex;
     flex-direction: column;
     height: 100vh;   
 }
 
-.wrapper-flex > * {
+.page-wrapper > * {
     flex: 0 1 auto;
 }
 
-.nav-flex {
+.nav-bar {
     display: flex;
     justify-content: space-between;
 }
 
-.menu-link:hover {
+.dot-menu:hover {
     color: lightgray;
 }
 
-.sign-in {
+.account-signin {
     background-color: #4285f4;
     border-radius: 3px;
     width: 25px;
@@ -77,7 +77,7 @@ button {
     margin: 5px;
 }
 
-.footer-flex {
+.footer-bar {
     display: flex;
     justify-content: space-between;
 }
