@@ -24,31 +24,20 @@ a:hover {
 }
 
 .page-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     height: 100vh;   
 }
 
 .page-wrapper > * {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 auto;
-            flex: 0 1 auto;
+    flex: 0 1 auto;
 }
 
 /* Nav */
 
 .nav-bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
 }
 
 .dot-menu:hover {
@@ -68,26 +57,15 @@ a:hover {
 /* Hero */
 
 .hero {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    align-items: center;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-flex: 2;
-        -ms-flex-positive: 2;
-            flex-grow: 2;
+    flex-direction: column;
+    flex-grow: 2;
     margin: 50px 0;
 }
 
 .hero > * {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 auto;
-            flex: 0 1 auto;
+    flex: 0 1 auto;
 }
 
 .search-area {
@@ -100,8 +78,7 @@ a:hover {
 }
 
 .search-area:hover {
-    -webkit-box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-            box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
 .search-area i {
@@ -134,8 +111,7 @@ button {
 button:hover {
     background: #f8f8f8;
     border: 1px solid #c6c6c6;
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 /* Footer */
@@ -143,10 +119,6 @@ button:hover {
 .footer-bar {
     background-color: #f2f2f2;
     color: #5f6368;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
 }
